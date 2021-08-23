@@ -1,0 +1,156 @@
+.body {
+  height: 100%;
+  width: 100%;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+div a {
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.top-text-container {
+  height: 50px;
+  width: 100%;
+  background-color: darkgray;
+  text-align: center;
+  align-items: center;
+}
+.container {
+  position: relative;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  text-align: center;
+  align-items: center;
+}
+
+.top-image {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block-2 {
+  position: absolute;
+  bottom: 50%;
+  right: 70%;
+  background-color: transparent;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  padding: 20px;
+}
+
+.grid-1 {
+  grid-area: 1 / 1 / 2 / 2;
+  height: 500px;
+  width: 100%;
+}
+.grid-2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.grid-3 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.grid-4 {
+  grid-area: 2 / 2 / 3 / 3;
+}
+.grid-5 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.grid-6 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+.gridimg {
+  height: 500px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.grid-text-block {
+  position: absolute;
+  background-color: transparent;
+  color: white;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: center;
+}
+.grid-text-block-2 {
+  position: absolute;
+  background-color: transparent;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer-container {
+  width: 95%;
+  height: 300px;
+  padding: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
+}
+
+.footer-list-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 100%;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+  height: 100%;
+}
+.div2 {
+  grid-area: 1 / 2 / 2 / 3;
+}
+.div3 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.div4 {
+  grid-area: 1 / 4 / 2 / 5;
+}
+.div5 {
+  grid-area: 1 / 5 / 2 / 6;
+}
+
+ol.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
